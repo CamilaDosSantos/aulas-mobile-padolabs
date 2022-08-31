@@ -10,13 +10,12 @@ class fde600wPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fde600w_page) //lealty
 
-        val btnComprar = findViewById<Button>(R.id.btnComprar) // usar como touchi mensagem de erro
-
-        btnComprar.setOnClickListener{
-           val toast = Toast.makeText(this,"Ainda não implementada", Toast.LENGTH_SHORT)
-
-            toast.show()
+//        val btnComprar = findViewById<Button>(R.id.btnComprar) // usar como touchi mensagem de erro
+//
+//        btnComprar.setOnClickListener{
+//           val toast = Toast.makeText(this,"Ainda não implementada", Toast.LENGTH_SHORT)
+//
+//            toast.show()
         }
 
     }
-}
