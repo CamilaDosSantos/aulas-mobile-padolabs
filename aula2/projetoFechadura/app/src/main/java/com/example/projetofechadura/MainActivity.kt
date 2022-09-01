@@ -1,9 +1,11 @@
 package com.example.projetofechadura
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import androidx.cardview.widget.CardView
 import com.google.android.material.appbar.MaterialToolbar
 
 class MainActivity : AppCompatActivity() {
@@ -11,12 +13,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val fde600wCard = findViewById<CardView>(R.id.fde600wCard);
+        fde600wCard.setOnClickListener{
+            startActivity(Intent(this, fde600wCard::class.java))
+        }
+
+
 
         val mainToolBar = findViewById<MaterialToolbar>(R.id.mainToolbar)
         mainToolBar.setNavigationOnClickListener {
             Toast.makeText(this,
             "Hamburger pressionado!!!",
             Toast.LENGTH_SHORT).show()
+
+
         }
 
         mainToolBar.setOnMenuItemClickListener { menuItem ->
@@ -43,6 +53,7 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
 }
 
 

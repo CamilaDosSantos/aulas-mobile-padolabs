@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">projetoFechadura</string>
+    <string name="o_mundi_cada_vez_mais_digital">O MUNDO CADA VEZ MAIS DIGITAL\n<b>DIGITAL</b></string>
+    <string name="Novidades"><b>Novidade</b>\n</string>
+    <string name="produtos">Produtos</string>
+    <string name="fde_600w_nome">FDE-600W</string>
+    <string name="fde_600w_descricao">FECHADURA DIGITAL DE  EMBUTIR A PROVA D’ÁGUA E COM CONECTIVIDADE</string>
+    <string name="fde_600w_preco">R$1.500,00</string>
+    <string name="fde_300w_nome">FDE-300W</string>
+    <string name="fde_300w_descricao">FECHADURA DIGITAL DE  EMBUTIR A PROVA D’ÁGUA E CONECTIVIDADE</string>
+    <string name="fde_300w_preco">R$1.500,00</string>
+    <string name="fde_500pro_nome">FDE-500 Pro</string>
+    <string name="fde_500pro_descricao">FECHADURA DIGITAL DE  EMBUTIR COM CONECTIVIDADE</string>
+    <string name="fde_500pro_preco">R$1.500,00</string>
+    <string name="fde_201r_nome">FDE-201R</string>
+    <string name="fde_201r_descricao">FECHADURA DIGITAL DE  EMBUTIR COM ROLLETE</string>
+    <string name="fde_201r_preco">R$1.500,00</string>
+    <string name="fde_201_nome">FDE-201</string>
+    <string name="fds_201_descricao">FECHADURA DIGITAL DE  EMBUTIR</string>
+    <string name="fds_201_preco">R$1.500,00</string>
+    <string name="fds_10_nome">FDS-101</string>
+    <string name="fds_101_descricao">FECHADURA DIGITAL DE  SOBREPOR</string>
+    <string name="fds_101_preco">R$1.500,00</string>
+    <string name="fdv_200_nome">FDV-200</string>
+    <string name="fdv_200_descricao">FECHADURA DIGITAL DE  SOBREPOR PARA PORTAS DE VIDRO</string>
+    <string name="fdv_200_preco">R$1.500,00</string>
 </resources>
